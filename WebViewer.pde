@@ -20,11 +20,11 @@ boolean ready;
   
 class WebViewer {
   
-  WebViewer() {  
+  WebViewer(int w, int h) {  
     stage = new Stage();
     stage.setTitle("HTML");
-    stage.setWidth(width);
-    stage.setHeight(height);     
+    stage.setWidth(w);
+    stage.setHeight(h);     
     
     scene = new Scene(new Group());
     root = new VBox();     
